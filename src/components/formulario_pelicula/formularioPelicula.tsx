@@ -78,8 +78,9 @@ function esURLImagen(cadena: string): boolean {
         url: '',
       }
     );
-   if(!alertLista.cargarListaTotal) setAlertLista({
-    cargarListaTotal:false,
+   if(!alertLista.cargarListaTotal) 
+    setAlertLista({
+    cargarListaTotal:true,
     cargarListaBusqueda:false
   });
    alert("Se a guardado la pelicula");
